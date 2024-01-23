@@ -1,0 +1,8 @@
+valores = [1,2,3,4]
+letras = ['a','b','c','d']
+nova_lista = []
+for i in range(3):
+  nova_lista.append(valores[i])
+  nova_lista.append(letras[i])
+
+print(nova_lista)
